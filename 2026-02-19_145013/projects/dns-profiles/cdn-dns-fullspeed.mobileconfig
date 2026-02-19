@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConsentText</key>
+	<dict>
+		<key>default</key>
+		<string>oskris.com 制作
+
+⚡ 加速DNS选项：
+• Cloudflare 1.1.1.1 - 全球最快+CDN
+• 阿里DNS - 亚洲区域加速
+• Google DNS - 全球基础设施
+• 腾讯DNSPod - 中国大陆加速
+
+纯速度优化，不屏蔽任何内容。
+所有DNS均使用DoH加密。
+
+安装后在 设置→通用→VPN与设备管理→DNS 中选择。</string>
+	</dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+					<string>2606:4700:4700::1111</string>
+					<string>2606:4700:4700::1001</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://cloudflare-dns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>全球最快DNS + 全球CDN加速</string>
+			<key>PayloadDisplayName</key>
+			<string>🚀 Cloudflare 1.1.1.1 极速</string>
+			<key>PayloadIdentifier</key>
+			<string>com.oskris.speed.cf.64539066-A162-4FBD-B985-5B37837E68B7</string>
+			<key>PayloadOrganization</key>
+			<string>oskris.com</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>64539066-A162-4FBD-B985-5B37837E68B7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>223.5.5.5</string>
+					<string>223.6.6.6</string>
+					<string>2400:3200::1</string>
+					<string>2400:3200:baba::1</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://dns.alidns.com/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>亚洲区域极速解析+CDN</string>
+			<key>PayloadDisplayName</key>
+			<string>🇨🇳 阿里DNS 亚洲极速</string>
+			<key>PayloadIdentifier</key>
+			<string>com.oskris.speed.ali.787BC539-18FC-4AA5-A740-E7C885E4BC9B</string>
+			<key>PayloadOrganization</key>
+			<string>oskris.com</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>787BC539-18FC-4AA5-A740-E7C885E4BC9B</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>8.8.8.8</string>
+					<string>8.8.4.4</string>
+					<string>2001:4860:4860::8888</string>
+					<string>2001:4860:4860::8844</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://dns.google/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Google公共DNS + 全球基础设施加速</string>
+			<key>PayloadDisplayName</key>
+			<string>🌐 Google DNS 全球加速</string>
+			<key>PayloadIdentifier</key>
+			<string>com.oskris.speed.google.CF22E964-D3B0-4E82-9DC1-1C95142F0D55</string>
+			<key>PayloadOrganization</key>
+			<string>oskris.com</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>CF22E964-D3B0-4E82-9DC1-1C95142F0D55</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>119.29.29.29</string>
+					<string>119.28.28.28</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://doh.pub/dns-query</string>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>中国大陆极速解析+CDN节点</string>
+			<key>PayloadDisplayName</key>
+			<string>🇨🇳 腾讯DNSPod 大陆加速</string>
+			<key>PayloadIdentifier</key>
+			<string>com.oskris.speed.dnspod.F4B97645-4DAF-460B-BEF1-C554B89C1539</string>
+			<key>PayloadOrganization</key>
+			<string>oskris.com</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>F4B97645-4DAF-460B-BEF1-C554B89C1539</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>oskris.com | Cloudflare全球CDN + 阿里DNS + Google DNS + 腾讯DNSPod | 纯速度优化</string>
+	<key>PayloadDisplayName</key>
+	<string>⚡CDN+DNS全加速</string>
+	<key>PayloadIdentifier</key>
+	<string>com.oskris.cdn-dns-fullspeed</string>
+	<key>PayloadOrganization</key>
+	<string>oskris.com</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>5CE0B026-AD73-4C8F-B807-E8B0886F54D7</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
